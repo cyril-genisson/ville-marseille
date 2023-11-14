@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    max-width: 1600px;
+    background-color: whitesmoke;
+}
+
+.body-accueil{
+    height: 100vh;
+}
+  
+/* HEADER */
+header{
+    display: flex;
+    background: url("/pictures/background_Marseille.jpg");
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    justify-content: space-between;
+    height: 400px;
+    border-bottom: 0.5px solid #0550FC;  
+}
+
+#toptitle{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+#toplogo{
+    margin-top: -300px;
+    width: 350px;
+    height: auto;
+}
+    
+a {
+    color: #4408ce;
+    font-weight: bold;
+    text-decoration: none;
+}
+    
+/* loupe-search anim
+#top-loupe{
+    color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-35%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: #4408ce;
+    box-sizing: border-box;
+    border-radius: 25px; 
+    margin-top: 25px;
+    padding:5px; 
+}
+    
+input{
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: none;
+    border: 1px solid #4408ce;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px; 
+    color: #4408ce;
+}
+    
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0%;
+    color: #0550FC;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+    
+#top-loupe:hover{
+    width: 200px;
+    cursor: pointer;
+}
+    
+#top-loupe:hover input{
+    display: block;
+}
+    
+#toploupe:hover .fa{
+    background: #4408ce;
+    color: whitesmoke;
+}
+*/
+    
+/* MAIN MENU*/
+.main_menu {
+    display: flex;
+    background-color: #4408ce;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    padding: 15px 15px;
+    width: 100%;
+    font-size: 25px;
+}
+    
+.main_menu:hover {
+    background-color:#4408ce;
+    border-radius: 0%;
+    transition: all 1s;
+    color: white;
+}
+  
+.menu {
+    position: relative;
+    display: inline-block;
+}
+  
+.menu-child {
+    display: none;
+    background-color:whitesmoke;
+    color: blue;
+    border-radius: 0%;
+    min-width: 40px;
+}
+  
+.menu-child a {
+    padding: 20px;
+    text-decoration: none;
+    transition: all 1s;
+    display: block;
+}
+  
+.menu:hover .menu-child {
+    display: block;
+    transition: all 1s;
+}
+  
+.menu li{
+    list-style-type: none;
+}
+    
+.menu-child a:hover{
+    color: whitesmoke;
+    background-color: #4408ce;
+}
+  
+/* FOOTER */
+footer{
+    display: flex;
+    background-color: #4408ce;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 400px;
+}
+    
+#bottomlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+    width: 100%;
+}
+    
+#bottom-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+    
+.menu-b{
+    list-style: none;
+}
+    
+.menu-b li{
+    padding-top: 15px;
+}
+    
+.menu-b li a{
+    color: white;
+}
+    
+footer li a:hover{
+    color: #05DAFC;
+}
+    
+#socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+    
+.social{
+    padding-top: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.social:hover{
+    filter: invert(100%);
+    filter
+}
+
+#copyright{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 25px;
+    font-size: 12px;
+    color: #05DAFC;
+}
+  
+/* RESPONSIVE HEADER + FOOTER */
+@media (max-width: 640px) {
+    #toptitle{
+      width: 50%;
+      margin-right: 20px;
+    }
+    
+    #socialmedia{
+        flex-direction: column;
+    }
+  
+    #socialmedia img{
+      height: 20px;
+      width: auto;
+    }
+  
+    #logo{
+      margin-top: 5.5%;
+      width: 30%;
+    }
+    #logo img{
+      width: 40px;
+      height: auto;
+    }
+  
+    #copyright{
+      font-size: 9px;
+      text-align: center;
+      margin-top: 10%;
+    }
+}
+
+@media (min-width: 640px) {
+    
+}
+
+@media (min-width:960px) {
+    
+}
+
+@media (min-width:1100px) {
+    
+}
