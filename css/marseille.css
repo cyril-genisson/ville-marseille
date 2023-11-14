@@ -25,7 +25,7 @@ header{
     border-bottom: 0.5px solid #0550FC;  
 }
 
-#toptitle{
+#HEADER_TITLE{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,7 @@ header{
     text-align: center;
 }
   
-#toplogo{
+#HEADER_LOGO{
     margin-top: -300px;
     width: 350px;
     height: auto;
@@ -44,68 +44,7 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
-    
-/* loupe-search anim
-#top-loupe{
-    color: whitesmoke;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%,-35%);
-    transition: all 1s;
-    width: 50px;
-    height: 50px;
-    background: #4408ce;
-    box-sizing: border-box;
-    border-radius: 25px; 
-    margin-top: 25px;
-    padding:5px; 
-}
-    
-input{
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 42.5px;
-    line-height: 30px;
-    outline: none;
-    border: 1px solid #4408ce;
-    display: none;
-    font-size: 1em;
-    border-radius: 20px;
-    padding: 0 20px; 
-    color: #4408ce;
-}
-    
-.fa{
-    box-sizing: border-box;
-    padding: 10px;
-    width: 42.5px;
-    height: 42.5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 0%;
-    color: #0550FC;
-    text-align: center;
-    font-size: 1.2em;
-    transition: all 1s;
-}
-    
-#top-loupe:hover{
-    width: 200px;
-    cursor: pointer;
-}
-    
-#top-loupe:hover input{
-    display: block;
-}
-    
-#toploupe:hover .fa{
-    background: #4408ce;
-    color: whitesmoke;
-}
-*/
-    
+
 /* MAIN MENU*/
 .main_menu {
     display: flex;
@@ -170,7 +109,7 @@ footer{
     height: 400px;
 }
     
-#bottomlogo{
+#FOTOTER_LOGO{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,13 +122,13 @@ footer{
     width: 100%;
 }
     
-#bottom-menu{
+#FOOTER_MENU{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 2px;
     height: 100%;
     width: 100%;
@@ -206,11 +145,11 @@ footer{
 }
     
 .menu-b li a{
-    color: white;
+    color: whitesmoke;
 }
     
 footer li a:hover{
-    color: #05DAFC;
+    color: #05bafc;
 }
     
 #socialmedia{
@@ -222,9 +161,9 @@ footer li a:hover{
 }
     
 .social{
-    padding-top: 15px;
-    height: 25px;
-    width: 25px;
+    padding-top: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .social:hover{
