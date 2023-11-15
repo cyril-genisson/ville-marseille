@@ -222,3 +222,108 @@ footer li a:hover{
 @media (min-width:1100px) {
     
 }
+
+/* MAIN */
+.accueil {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0066cc;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.actus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.actu {
+    width: 48%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pics img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.contenu {
+    padding: 15px;
+}
+
+.contenu a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contenu p {
+    color: #333;
+}
+
+.partenaires {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.partenaires article {
+    margin-bottom: 20px;
+}
+
+.partenaires img {
+    width: 100px;
+    height: auto;
+}
+
+.actu-monde {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #0066cc;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.info-image img {
+    width: 100%;
+    height: auto;
+}
+
+.description h3 {
+    color: #0066cc;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.description h3 a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.description p {
+    color: #333;
+}

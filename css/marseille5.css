@@ -1,0 +1,123 @@
+main {
+	padding: 20px;
+	background-color: #fff;
+	margin: 20px 0;
+  }
+  
+  #resume {
+	text-align: center;
+	margin-bottom: 30px;
+  }
+  
+  #resume-title {
+	color: #0066cc;
+	font-size: 36px;
+  }
+  
+  #description {
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5;
+  }
+  
+  #sub-selection {
+	color: #0066cc;
+	font-size: 24px;
+	margin-top: 30px;
+  }
+  
+  .selection {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+  }
+  
+  .topmus {
+	width: 30%;
+	margin: 10px;
+	perspective: 1000px;
+  }
+  
+  .front,
+  .back {
+	width: 100%;
+	height: 200px;
+  }
+  
+  .front img,
+  .back img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+  
+  .back-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .back-content h2 {
+	color: #0066cc;
+	font-size: 20px;
+	margin-bottom: 10px;
+  }
+  
+  .back-content span {
+	font-size: 14px;
+	color: #333;
+  }
+  
+  .reseaux {
+	margin-top: 10px;
+  }
+  
+  .reseaux a {
+	color: #0066cc;
+	margin: 0 5px;
+	text-decoration: none;
+  }
+  
+  table {
+	width: 100%;
+	margin-top: 30px;
+	border-collapse: collapse;
+  }
+  
+  td {
+	padding: 15px;
+	border: 1px solid #ddd;
+	text-align: left;
+  }
+  
+  td p {
+	margin: 5px 0;
+  }
+  
+  td .container {
+	margin-top: 10px;
+  }
+  
+  td .info {
+	background-color: #ffffff;
+	color: #fff;
+	border: none;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 14px;
+	cursor: pointer;
+  }
+  
+  td .info:hover {
+	background-color: #d0d0d0;
+  }

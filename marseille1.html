@@ -38,10 +38,11 @@
     <link rel="stylesheet" href="css/marseille1.css">
   </head>
 
+  <!-- ajout de class sur les divs body car bug avec le header et le footer sur marseille1 -->
   <body>
-      <div w3-include-html="header.html"></div>
-      <div w3-include-html="main1.html"></div>
-      <div w3-include-html="footer.html"></div> 
+      <div class="header" w3-include-html="header.html"></div>
+      <div class="main1" w3-include-html="main1.html"></div>
+      <div class="footer" w3-include-html="footer.html"></div> 
       <script>
         includeHTML();
       </script>

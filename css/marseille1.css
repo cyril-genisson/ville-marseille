@@ -1,0 +1,121 @@
+.header{
+	width: 100%;
+}
+
+.footer{
+	width: 100%;
+	margin-top: 20px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 100vh;
+	margin: 0;
+  }
+  
+  main {
+	max-width: 800px;
+	width: 100%;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-top: 20px;
+  }
+  
+  #hist-part,
+  #hist-part2,
+  #hist-part3 {
+	margin: 30px 0;
+  }
+  
+  #chronologie,
+  #hist-part2,
+  #hist-part3 {
+	width: 100%;
+	text-align: justify;
+  }
+  
+  #hist-title,
+  #hist-title2,
+  #section-hist-title,
+  #section-title {
+	color: #0066cc;
+	font-size: 28px;
+	margin-bottom: 20px;
+  }
+  
+  #hist-intro,
+  #hist-intro2,
+  #section-text {
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5;
+  }
+  
+  #hist-story-text,
+  .hist-text {
+	margin-bottom: 15px;
+  }
+  
+  .collapse {
+	margin-bottom: 20px;
+  }
+  
+  .resume {
+	display: block;
+	font-size: 18px;
+	color: #0066cc;
+	text-decoration: none;
+	margin-bottom: 10px;
+  }
+  
+  .resume:hover {
+	text-decoration: underline;
+  }
+  
+  .content-title {
+	color: #0066cc;
+	font-size: 22px;
+	margin-bottom: 10px;
+  }
+  
+  .hist-text {
+	color: #333;
+	font-size: 16px;
+  }
+  
+  .content-img {
+	position: relative;
+  }
+  
+  .content-image {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	z-index: -1;
+  }
+  
+  #hist-part3 {
+	position: relative;
+	overflow: hidden;
+  }
+  
+  #inner-container {
+	position: relative;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	padding: 20px;
+  }
+  
+  #section-title {
+	color: #0066cc;
+	font-size: 24px;
+	margin-bottom: 15px;
+  }
+  
