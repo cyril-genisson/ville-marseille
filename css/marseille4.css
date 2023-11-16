@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    /* Trois colonnes de largeur égale */
+    grid-gap: 10px;
+    /* Espacement entre les éléments */
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+
+img {
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+input.about {
+    display: none;
+}
+
+input#open1:checked~#p1 {
+    height: auto;
+    overflow: inherit;
+}
+
+input#open2:checked~#p2 {
+    height: auto;
+    overflow: inherit;
+}
+
+input#open3:checked~#p3 {
+    height: auto;
+    overflow: inherit;
+}
+
+input#open4:checked~#p4 {
+    height: auto;
+    overflow: inherit;
+}
+
+input#open5:checked~#p5 {
+    height: auto;
+    overflow: inherit;
+}
+
+input#open6:checked~#p6 {
+    height: auto;
+    overflow: inherit;
+}
+
+input#open7:checked~#p7 {
+    height: auto;
+    overflow: inherit;
+}
+
+input#open8:checked~#p8 {
+    height: auto;
+    overflow: inherit;
+}
+
+.card p {
+    height: 70px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.card label {
+    font-weight: bold;
+    color: rgb(29, 29, 41);
+    cursor: pointer;
+}
