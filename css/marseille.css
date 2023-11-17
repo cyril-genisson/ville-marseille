@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
@@ -109,7 +109,7 @@ footer{
     height: 400px;
 }
     
-#FOTOTER_LOGO{
+#FOOTER_LOGO{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +168,6 @@ footer li a:hover{
 
 .social:hover{
     filter: invert(100%);
-    filter
 }
 
 #copyright{
