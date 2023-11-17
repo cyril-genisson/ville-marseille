@@ -16,7 +16,7 @@ body {
 /* HEADER */
 header{
     display: flex;
-    background: url("/pictures/background_Marseille.jpg");
+    background: url("../pictures/background_Marseille.jpg");
     background-size:  cover;
     background-repeat: no-repeat;
     background-origin: content-box;
