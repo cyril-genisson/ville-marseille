@@ -1,14 +1,3 @@
-/* Add the improved CSS with transitions here */
-
-/* Reset some default styles */
-h1, h2, h3, p, img, div, section, article, hr, a {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* Main container styling */
 main {
     max-width: 1200px;
     margin: 20px auto;
@@ -18,18 +7,15 @@ main {
     transition: box-shadow 0.3s ease;
 }
 
-/* Header styling */
 .font-title {
     font-family: 'Helvetica', sans-serif;
     color: #333;
 }
 
-/* Introduction section styling */
 .main-div-presentation {
     margin-bottom: 20px;
 }
 
-/* Beaches section styling */
 section {
     margin-bottom: 40px;
 }
@@ -45,14 +31,12 @@ section {
     height: auto;
 }
 
-/* Beach images container styling using flex */
 .flex {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-/* Beach container styling using grid */
 .beach-container-1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -63,7 +47,6 @@ section {
     width: 100%;
 }
 
-/* Links styling with transition */
 a {
     color: #007BFF;
     text-decoration: none;
@@ -74,5 +57,3 @@ a:hover {
     text-decoration: underline;
     color: #0056b3;
 }
-
-
